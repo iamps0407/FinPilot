@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://finpilot-backend-1fh8.onrender.com'; 
+const API_URL = 'https://finpilot-backend-8gc9.onrender.com'; 
 
 const handleApiError = (error) => {
   console.error("API Error:", error);
