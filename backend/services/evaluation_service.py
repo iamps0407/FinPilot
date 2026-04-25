@@ -30,6 +30,7 @@ async def invoke_llm_with_retry(prompt_template, input_data, temperature: float 
                 model="gemini-2.5-flash",
                 temperature=temperature,
                 google_api_key=key
+                version="v1"
             )
 
             # Build the full chain using the prompt and the LLM
