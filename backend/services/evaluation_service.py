@@ -27,7 +27,7 @@ async def invoke_llm_with_retry(prompt_template, input_data, temperature: float 
         try:
             # Initialize a new LLM instance with the current key
             llm = ChatGoogleGenerativeAI(
-                model="gemini-1.5-flash-latest",
+                model="gemini-1.5-flash",
                 temperature=temperature,
                 google_api_key=key
             )
